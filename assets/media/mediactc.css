@@ -1,0 +1,212 @@
+/*Huge Screen*/
+@media screen and (min-width: 1442px) and (max-width: 2560px) {
+/*Nav Bar*/
+#ul {
+  margin-left: 30em;
+}
+/*End Of Nav Bar*/
+
+
+
+/*Header*/
+#contact-container {
+  display: inline-flex;
+}
+
+#first-title {
+  padding-top: 1.7em;
+  padding-left: 2em;
+}
+
+#msg-icon {
+  margin-left: 3em;
+  height: 200px;
+  width: 200px;
+}
+/*End Of Header*/
+
+
+
+/*Footer*/
+#contact {
+  padding-left: 10em;
+}
+
+#social-media {
+  padding-left: 20em;
+}
+/*End Of Footer*/
+}
+/*End Of Huge Screen*/
+
+
+
+/*Laptops*/
+@media screen and (min-width: 1149px) and (max-width: 1440px) {
+/*Menu*/
+#burger {
+  display: none;
+}
+}
+/*End Of Laptops*/
+
+
+
+/*Phone*/
+@media screen and (min-width: 320px) and (max-width: 853px) {
+/*Nav Bar*/
+h1 {
+  font-size: 1.3em;
+  width: 140%;
+}
+#burger {
+  padding-left: 6em;
+  font-size: 2em;
+  color: white;
+}
+
+#burger:before {
+  content: "\2632";
+  cursor: pointer;
+}
+
+.active #burger:before {
+  content: "\2715";
+  cursor: pointer;
+}
+
+#nav #ul {
+  position: fixed;
+  left: -100%;
+  top: 11%;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  transition: 0.25s;
+  height: 30%;
+  padding-top: 2em;
+}
+
+#ul {
+  padding-left: 0em;
+}
+
+#nav.active #ul {
+  left: 0;
+}
+/*End Of Nav Bar*/
+
+
+
+/*Header*/
+.container-logs {
+  width: 100%;
+  display: inline-block;
+}
+
+#BG1 {
+  border-radius:0;
+  width: 100%;
+  margin-top: 5em;
+}
+
+#contact-container {
+  display: inline-block;
+  margin-top: -6em;
+}
+
+#first-title {
+  font-size: 3em;
+  width: 100%;
+  padding-right: 2.3em;
+}
+
+#msg-icon {
+  padding-right: 10em;
+  padding-left: 0em;
+  margin-top: -4em;
+}
+/*End Of Header*/
+
+
+
+/*Body*/
+.content {
+  display: block;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 30em;
+}
+
+#second-title {
+  width: 100%;
+}
+
+.form {
+  margin: 13em 0em 0em 0em;
+  padding: 0;
+  border-radius: 0;
+}
+/*End Of Body*/
+
+
+
+#maps {
+  margin-top: 15em;
+  margin-bottom: 20em;
+}
+
+
+
+/*Footer*/
+footer {
+  height: 75em;
+}
+
+#nav-footer {
+  display: block;
+}
+
+#footer {
+  margin-left: -3em;
+}
+
+#social-media {
+  display: block;
+  width: 100%;
+  margin-left: -6em;
+}
+
+.sm {
+  margin-left: -3em;
+}
+
+#copyright-ml {
+  display: block;
+  width: 100%;
+  padding-left: 0em;
+  padding-right: 0em;
+}
+
+#copyright {
+  text-align: center;  
+  font-size: 1em;
+  width: 100%;
+  margin-left: 0em;
+  padding-bottom: 1em;
+}
+
+#m {
+  display: flex;
+  margin-left: 3.5em;
+}
+ 
+.copyright-m {
+  font-size: .8em;
+  padding-left: .6em;
+  padding-right: .6em;
+}
+/*End Of Footer*/
+}
+/*End Of Phone*/

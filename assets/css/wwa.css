@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Source Code Pro", monospace;
+  scroll-behavior: smooth;
+}
+
+body, footer {
+  background-color: whitesmoke;
+}
+
+/*Nav Bar*/
+#nav {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  height: 6em;
+  position: fixed;
+  top:0;
+  z-index: 5;  
+  border-bottom: 1px solid #00FF40;
+  background-color: #080808;
+}
+
+h1 {
+  font-family: "Game Of Squids";
+  color: #00FF40;
+  font-size: 2rem;
+  letter-spacing: .1em;
+  text-transform: lowercase;
+  padding-left: 1em;
+}
+
+#ul {
+  display: flex;
+  list-style: none;
+  gap: 2em;
+  padding-left: 45em;
+}
+
+#li {
+  text-transform: uppercase;
+  color: whitesmoke;
+  font-size: .9em;
+}
+
+.a:hover {
+  color: #00FF40;
+}
+
+.a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+#on {
+  color: #00FF40;
+}
+/*End Of Nav Bar*/
+
+
+
+/*Header*/
+.container-logs {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+}
+
+#BG1 {
+  margin-top: 12.3em;
+  border-top-right-radius: 10em;
+}
+
+#question {
+  display: inline-block;
+  padding-top: 10em;
+}
+
+#first-title {
+  background: none;
+  font-size: 5em;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  margin-left: 1em;
+}
+
+#qst-icon {
+  margin-left: 10em;
+  margin-top: 3em;
+}
+/*End Of Header*/
+
+
+
+/*First&Second-Container*/
+.first-container {
+  margin-top: 10em;
+  margin-bottom: 10em;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-top: 7em;
+  background-color: #E5E4E2;
+  height: 33em;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+h2 {
+  background: none;
+  font-size: 5em;
+  font-family: "Bebas Neue", sans-serif;
+}
+.second-container {
+  padding-left: 10em;
+  padding-right: 10em;
+}
+/*End Of First&Second-Container*/
+
+
+
+/*Dev&Hack-Container*/
+.grid-dev-hack {
+  display: inline-flex;
+  margin-top: 5em;
+  margin-bottom: 10em;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 5em;
+  padding: 0em 10em 5em 10em;
+}
+
+#grid-dev, #grid-hack {
+  height: 30em;
+  width: 40em;
+  background-color: #E5E4E2;
+  border-radius: 2em;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.dev-img {
+  background-color: #E5E4E2;
+  transition: transform .5s ease-out;
+}
+
+.dev-img:hover {
+  transform: scale(.9); 
+}
+
+#grid-dev {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+h3 {
+  background: none;
+  font-size: 1.5em;
+  padding-top: .7em;
+}
+
+#rp {
+  background: none;
+  font-size: 1.5em;
+  color: lightslategrey;
+}
+
+.ap {
+  background: none;
+  font-size: 1.5em;
+  color: lightslategrey;
+}
+
+#grid-hack {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#icons-sm {
+  display: inline-flex;
+  gap: 2em;
+  padding-top: 2em;
+  background: none;
+}
+
+a {
+  background: none;
+  text-decoration: none;
+}
+
+#in {
+  background: none;
+  transition: transform .3s;
+}
+
+#in:hover{
+  transform: scale(.9); 
+}
+
+#git{
+  background: none;
+  transition: transform .3s;
+}
+
+#git:hover{
+  transform: scale(.9); 
+}
+/*End Of Dev&Hack-Container*/
+
+
+
+#maps {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10em;
+}
+
+
+
+/*Third-Container*/
+.third-container {
+  margin-bottom: 10em;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-top: 3em;
+  background-color: #E5E4E2;
+  height: 20em;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+/*End Of Third Container*/
+
+
+
+/*Footer*/
+p {
+  text-align: center;
+  margin-top: 1em;
+}
+
+footer {
+  display: block;
+  margin-top: auto;
+  background-color: #E5E4E2;
+  height: 33em;
+}
+
+h4 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  margin-left: .3em;
+  font-family: "Bebas Neue", sans-serif;
+  background: none;
+}
+
+
+
+/*Content Link*/
+#nav-footer {
+  background-color: #E5E4E2;
+  display: flex;
+}
+
+#footer {
+  display: inline-block;
+  background: none;
+  padding-top: 3em;
+  padding-left: 7em;
+}
+
+#footer-list, #footer-link {
+  background: none;
+  color: #080808;
+  padding: 10px;
+}
+
+#footer-icons {
+  background: none;
+}
+/*End Of Content Link*/
+
+
+
+/*Contact*/
+#contact, #social-media {
+  background: none;
+}
+
+#footer-link-phone{
+  background: none;
+}
+
+#footer-icons-phone {
+  background: none;
+}
+
+#footer-icons-phone:hover {
+  color: #00FF40;
+}
+/*End Of Contact*/
+
+
+
+/*Social Media*/
+#social-media {
+  padding-top: 3em;
+  padding-left: 10em;
+}
+
+.sm {
+  text-align: center;
+  background: none;
+  height: 100px;
+}
+/*End Of Social Media*/
+/*End Of Footer*/
+
+
+
+/*Copyright*/
+#copyright-ml {
+  display: flex;
+  align-items: center;
+  background: none;
+  padding-top: 10em;  
+  font-size: .8em;
+  padding-left: 5em;
+}
+
+#copyright {
+  border-top: 1px solid #080808;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+#copyright, #m, .copyright-m {
+  background: none;
+}
+
+#m {
+  display: flex;
+  gap: 2em;
+  margin-left: 20em;
+  cursor: pointer;
+}
+/*End Of Copyright*/
